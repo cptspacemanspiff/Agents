@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "modelClasses": {
+    "small": {
+      "claude": "haiku",
+      "opencode": "opencode-go/minimax-m2.7"
+    },
+    "medium": {
+      "claude": "sonnet",
+      "opencode": "opencode-go/kimi-k2.5"
+    },
+    "large": {
+      "claude": "opus",
+      "opencode": "zai-coding-plan/glm-5.1"
+    },
+    "planning": {
+      "claude": "opus",
+      "opencode": "zai-coding-plan/glm-5.1"
+    },
+    "editing": {
+      "claude": "sonnet",
+      "opencode": "opencode-go/kimi-k2.5"
+    },
+    "reasoning": {
+      "claude": "opus",
+      "opencode": "zai-coding-plan/glm-5.1"
+    }
+  }
+}
