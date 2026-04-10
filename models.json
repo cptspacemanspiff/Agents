@@ -3,27 +3,39 @@
   "modelClasses": {
     "small": {
       "claude": "haiku",
-      "opencode": "anthropic/claude-haiku-4-5"
+      "opencode-zai": "anthropic/claude-haiku-4-5",
+      "opencode-oai": "openai/gpt-5.4-nano",
+      "opencode-gh-oai": "openai/gpt-5.4-nano"
     },
     "medium": {
       "claude": "sonnet",
-      "opencode": "anthropic/claude-sonnet-4-5"
+      "opencode-zai": "anthropic/claude-sonnet-4-6",
+      "opencode-oai": "openai/gpt-5.4-mini",
+      "opencode-gh-oai": "openai/gpt-5.4-mini"
     },
     "large": {
       "claude": "opus",
-      "opencode": "anthropic/claude-opus-4-6"
+      "opencode-zai": "anthropic/claude-opus-4-6",
+      "opencode-oai": "openai/gpt-5.4",
+      "opencode-gh-oai": "openai/gpt-5.4"
     },
     "planning": {
       "claude": "opus",
-      "opencode": "anthropic/claude-opus-4-6"
+      "opencode-zai": "anthropic/claude-opus-4-6",
+      "opencode-oai": "openai/gpt-5.4",
+      "opencode-gh-oai": "openai/gpt-5.4"
     },
     "editing": {
       "claude": "sonnet",
-      "opencode": "anthropic/claude-sonnet-4-5"
+      "opencode-zai": "anthropic/claude-sonnet-4-6",
+      "opencode-oai": "openai/gpt-5.4-mini",
+      "opencode-gh-oai": "openai/gpt-5.4-mini"
     },
     "reasoning": {
       "claude": "opus",
-      "opencode": "anthropic/claude-opus-4-6"
+      "opencode-zai": "anthropic/claude-opus-4-6",
+      "opencode-oai": "openai/gpt-5.4",
+      "opencode-gh-oai": "openai/gpt-5.4"
     }
   }
 }

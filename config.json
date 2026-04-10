@@ -1,3 +1,45 @@
 {
-  "version": 1
+  "version": 1,
+  "harnesses": {
+    "claude": {
+      "adapter": "claude",
+      "paths": {
+        "projectAgentsDir": ".claude/agents",
+        "globalAgentsDir": "~/.claude/agents"
+      }
+    },
+    "opencode-zai": {
+      "adapter": "opencode",
+      "paths": {
+        "projectAgentsDir": "~/.config/opencode-zai/agents"
+      },
+      "run": {
+        "env": {
+          "OPENCODE_CONFIG_DIR": "~/.config/opencode-zai"
+        }
+      }
+    },
+    "opencode-oai": {
+      "adapter": "opencode",
+      "paths": {
+        "projectAgentsDir": "~/.config/opencode-oai/agents"
+      },
+      "run": {
+        "env": {
+          "OPENCODE_CONFIG_DIR": "~/.config/opencode-oai"
+        }
+      }
+    },
+    "opencode-gh-oai": {
+      "adapter": "opencode",
+      "paths": {
+        "projectAgentsDir": "~/.config/opencode-gh-oai/agents"
+      },
+      "run": {
+        "env": {
+          "OPENCODE_CONFIG_DIR": "~/.config/opencode-gh-oai"
+        }
+      }
+    }
+  }
 }
