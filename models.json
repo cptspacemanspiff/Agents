@@ -3,39 +3,69 @@
   "modelClasses": {
     "small": {
       "claude": "haiku",
-      "opencode-zai": "anthropic/claude-haiku-4-5",
+      "opencode-zai": "opencode-go/minimax-m2.7",
       "opencode-oai": "openai/gpt-5.4-nano",
-      "opencode-gh-oai": "openai/gpt-5.4-nano"
+      "opencode-gh-oai": "github-copilot/gpt-5-mini"
     },
     "medium": {
       "claude": "sonnet",
-      "opencode-zai": "anthropic/claude-sonnet-4-6",
+      "opencode-zai": "opencode-go/kimi-k2.5",
       "opencode-oai": "openai/gpt-5.4-mini",
-      "opencode-gh-oai": "openai/gpt-5.4-mini"
+      "opencode-gh-oai": "github-copilot/gpt-5.4-mini"
     },
     "large": {
       "claude": "opus",
-      "opencode-zai": "anthropic/claude-opus-4-6",
-      "opencode-oai": "openai/gpt-5.4",
-      "opencode-gh-oai": "openai/gpt-5.4"
+      "opencode-zai": "zai-coding-plan/glm-5.1",
+      "opencode-oai": {
+        "model": "openai/gpt-5.4",
+        "frontmatter": {
+          "reasoningEffort": "medium"
+        }
+      },
+      "opencode-gh-oai": {
+        "model": "github-copilot/gpt-5.4",
+        "frontmatter": {
+          "reasoningEffort": "medium"
+        }
+      }
     },
     "planning": {
       "claude": "opus",
-      "opencode-zai": "anthropic/claude-opus-4-6",
-      "opencode-oai": "openai/gpt-5.4",
-      "opencode-gh-oai": "openai/gpt-5.4"
+      "opencode-zai": "zai-coding-plan/glm-5.1",
+      "opencode-oai": {
+        "model": "openai/gpt-5.4",
+        "frontmatter": {
+          "reasoningEffort": "high"
+        }
+      },
+      "opencode-gh-oai": {
+        "model": "github-copilot/gpt-5.4",
+        "frontmatter": {
+          "reasoningEffort": "high"
+        }
+      }
     },
     "editing": {
       "claude": "sonnet",
-      "opencode-zai": "anthropic/claude-sonnet-4-6",
+      "opencode-zai": "opencode-go/kimi-k2.5",
       "opencode-oai": "openai/gpt-5.4-mini",
-      "opencode-gh-oai": "openai/gpt-5.4-mini"
+      "opencode-gh-oai": "github-copilot/gpt-5.4-mini"
     },
     "reasoning": {
       "claude": "opus",
-      "opencode-zai": "anthropic/claude-opus-4-6",
-      "opencode-oai": "openai/gpt-5.4",
-      "opencode-gh-oai": "openai/gpt-5.4"
+      "opencode-zai": "zai-coding-plan/glm-5.1",
+      "opencode-oai": {
+        "model": "openai/gpt-5.4",
+        "frontmatter": {
+          "reasoningEffort": "high"
+        }
+      },
+      "opencode-gh-oai": {
+        "model": "github-copilot/gpt-5.4",
+        "frontmatter": {
+          "reasoningEffort": "high"
+        }
+      }
     }
   }
 }
