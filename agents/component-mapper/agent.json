@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "name": "component-mapper",
+  "description": "Use this agent when you need to analyze a specific component, module, or subsystem in the codebase and produce a structured context packet describing its responsibilities, entrypoints, types, dependencies, data flow, configuration, and operational behavior. This agent is the foundation for documentation and review work and should be invoked before doc-writing or review passes.\\\\n\\\\nExamples:\\\\n\\\\n- User: \\\"Map the billing/invoicing component\\\"\\\\n  Assistant: \\\"I'll use the component-mapper agent to analyze the billing/invoicing component and produce a structured context packet.\\\"\\\\n  (Uses Agent tool to launch component-mapper with the target component scope)\\\\n\\\\n- User: \\\"I need to understand what the auth subsystem does before we refactor it\\\"\\\\n  Assistant: \\\"Let me use the component-mapper agent to produce a factual analysis of the auth subsystem.\\\"\\\\n  (Uses Agent tool to launch component-mapper targeting the auth subsystem paths)\\\\n\\\\n- User: \\\"Generate documentation for the payment service\\\"\\\\n  Assistant: \\\"Before writing documentation, I need a structured understanding of the payment service. Let me use the component-mapper agent to map it first.\\\"\\\\n  (Uses Agent tool to launch component-mapper, then uses output to inform doc writing)\\\\n\\\\n- User: \\\"What does src/core/scheduler do?\\\"\\\\n  Assistant: \\\"I'll use the component-mapper agent to analyze the scheduler component and give you a structured breakdown.\\\"\\\\n  (Uses Agent tool to launch component-mapper on the scheduler paths)",
+  "adapterOverrides": {
+    "claude": {
+      "model": "medium",
+      "color": "green"
+    }
+  }
+}

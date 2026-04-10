@@ -3,27 +3,27 @@
   "modelClasses": {
     "small": {
       "claude": "haiku",
-      "opencode": "opencode-go/minimax-m2.7"
+      "opencode": "anthropic/claude-haiku-4-5"
     },
     "medium": {
       "claude": "sonnet",
-      "opencode": "opencode-go/kimi-k2.5"
+      "opencode": "anthropic/claude-sonnet-4-5"
     },
     "large": {
       "claude": "opus",
-      "opencode": "zai-coding-plan/glm-5.1"
+      "opencode": "anthropic/claude-opus-4-6"
     },
     "planning": {
       "claude": "opus",
-      "opencode": "zai-coding-plan/glm-5.1"
+      "opencode": "anthropic/claude-opus-4-6"
     },
     "editing": {
       "claude": "sonnet",
-      "opencode": "opencode-go/kimi-k2.5"
+      "opencode": "anthropic/claude-sonnet-4-5"
     },
     "reasoning": {
       "claude": "opus",
-      "opencode": "zai-coding-plan/glm-5.1"
+      "opencode": "anthropic/claude-opus-4-6"
     }
   }
 }

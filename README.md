@@ -2,7 +2,7 @@
 
 This directory is my global, git-managed source of truth for `agentctl`.
 
-Project repository: https://github.com/orgforge-ai/agentcli
+Project repository: https://github.com/orgforge-ai/agentctl
 
 It holds the reusable definitions that should follow me across repositories:
 
