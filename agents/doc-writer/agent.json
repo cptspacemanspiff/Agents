@@ -2,9 +2,9 @@
   "version": 1,
   "name": "doc-writer",
   "description": "Use this agent when mapper outputs are available for a component and human-facing documentation needs to be generated or updated. This includes creating new component docs, refreshing stale documentation, standardizing terminology, and making implicit behavior explicit based on structured analysis artifacts.\\\\n\\\\nExamples:\\\\n\\\\n- user: \\\"The mapper finished analyzing the billing/invoicing component. Generate documentation for it.\\\"\\\\n  assistant: \\\"I'll use the Agent tool to launch the doc-writer agent to convert the mapper output into component documentation.\\\"\\\\n\\\\n- user: \\\"We have mapper outputs for all the auth service components. Write docs for them.\\\"\\\\n  assistant: \\\"I'll use the Agent tool to launch the doc-writer agent to produce documentation from the auth service mapper artifacts.\\\"\\\\n\\\\n- user: \\\"The existing docs for the payments module are outdated. Here's the latest mapper analysis.\\\"\\\\n  assistant: \\\"I'll use the Agent tool to launch the doc-writer agent to refresh the payments module documentation based on the current mapper evidence.\\\"\\\\n\\\\n- After a mapper agent completes its structured output for a component, the orchestrator or user should launch the doc-writer agent to transform that output into readable documentation.\\\\n  assistant: \\\"The mapper has completed analysis of shared/db. Let me use the Agent tool to launch the doc-writer agent to generate documentation from this analysis.\\\"",
+  "defaultModelClass": "medium",
   "adapterOverrides": {
     "claude": {
-      "model": "medium",
       "color": "cyan"
     }
   }
