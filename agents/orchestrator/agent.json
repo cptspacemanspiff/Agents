@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "name": "orchestrator",
+  "description": "Use this agent when you want to run a multi-component task — code review, documentation refresh, architectural audit, onboarding map — across a directory tree from a single prompt. Takes a natural-language brief with a root directory and a goal, decomposes the work, delegates the vast majority of it to worker subagents (component-mapper, component-reviewer, architecture-reviewer, doc-writer, ducky) in parallel, and synthesizes their output into a single Markdown report. The root directory does not need to be the repo root. Do not use for single-component, single-file, or purely conversational tasks — invoke the relevant worker directly instead.",
+  "defaultModelClass": "planning",
+  "adapterOverrides": {
+    "claude": {
+      "color": "yellow"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "name": "architecture-reviewer",
+  "description": "Use this agent when you need a cross-component structural review — dependency direction, layering violations, coupling between modules, duplicated concepts, shared mutable state, and boundaries that have drifted from their intent. Use it for refactor planning, pre-extraction sanity checks, or when a single-component review would miss the real problem. Prefer component-reviewer for issues contained inside one module.",
+  "defaultModelClass": "reasoning",
+  "adapterOverrides": {
+    "claude": {
+      "color": "orange"
+    }
+  }
+}

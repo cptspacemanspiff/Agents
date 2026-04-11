@@ -19,13 +19,13 @@
       "opencode-oai": {
         "model": "openai/gpt-5.4",
         "frontmatter": {
-          "reasoningEffort": "medium"
+          "variant": "medium"
         }
       },
       "opencode-gh-oai": {
         "model": "github-copilot/gpt-5.4",
         "frontmatter": {
-          "reasoningEffort": "medium"
+          "variant": "medium"
         }
       }
     },
@@ -35,13 +35,13 @@
       "opencode-oai": {
         "model": "openai/gpt-5.4",
         "frontmatter": {
-          "reasoningEffort": "high"
+          "variant": "high"
         }
       },
       "opencode-gh-oai": {
         "model": "github-copilot/gpt-5.4",
         "frontmatter": {
-          "reasoningEffort": "high"
+          "variant": "high"
         }
       }
     },
@@ -57,13 +57,13 @@
       "opencode-oai": {
         "model": "openai/gpt-5.4",
         "frontmatter": {
-          "reasoningEffort": "high"
+          "variant": "xhigh"
         }
       },
       "opencode-gh-oai": {
         "model": "github-copilot/gpt-5.4",
         "frontmatter": {
-          "reasoningEffort": "high"
+          "variant": "xhigh"
         }
       }
     }

@@ -47,9 +47,16 @@ Agent files:
 - `description.md`: optional human-facing description
 - `prompt.md`: optional prompt content rendered into harness-native agent files
 
-Current global agent here:
+Current global agents here:
 
+- `orchestrator`: takes a root directory and a goal, decomposes the work, delegates to the worker agents below in parallel, and synthesizes a single Markdown report — use this for any multi-component task from a single prompt
+- `component-mapper`: produces a factual, evidence-backed map of a single component or subsystem
+- `component-reviewer`: reviews the design quality of one component — API, coupling, error handling, testability
+- `architecture-reviewer`: reviews structural concerns across multiple components — layering, dependency direction, cross-cutting coupling
+- `doc-writer`: updates current-state component docs in place against the actual code
 - `ducky`: a skeptical review agent used to pressure-test architecture and implementation decisions
+
+All agents emit Markdown reports grounded in source evidence. They take a natural-language brief (scope + goal) rather than a rigid input schema.
 
 ## How `agentctl` Resolves Things
 

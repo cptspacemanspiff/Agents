@@ -1,0 +1,1 @@
+Reviews the structural design across multiple components: dependency direction, layering, cross-cutting coupling, concept duplication, shared mutable state, and boundary drift. Produces an evidence-backed Markdown report with severity-ranked findings. Use it for refactor planning or when a problem spans several modules and a single-component review would miss it.
